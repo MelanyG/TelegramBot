@@ -27,7 +27,7 @@ class MelanyBot
         }
 
         if msg_text && msg_text.include?('what') && msg_text.include?('name')
-          request_params[:text] = 'My name is Pavlo Bot'
+          request_params[:text] = 'My name is Melany Bot'
         end
 
         if msg_text && msg_text.include?('how') && msg_text.include?('old')
